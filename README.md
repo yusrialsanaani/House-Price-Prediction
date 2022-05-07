@@ -7,4 +7,4 @@ The next step is to collect and consolidate the data, wrangle it, and conduct ex
 
 ![image](https://user-images.githubusercontent.com/89004966/167239297-c72af1df-e1b8-4fa3-8166-10c90a9d540c.png)
 
-                 Figure 1: The machine learning project life cycle.
+Figure 1: The machine learning project life cycle.
