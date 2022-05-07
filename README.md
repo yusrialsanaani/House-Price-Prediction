@@ -30,8 +30,8 @@ Data preprocessing is an extremely important step in machine learning to enhance
 - Outlier detection using visual method and interquartile range rule (IQR) technique.
 - Identifying and handling the missing values
 - Variable transformation using:
- - Log for target variable
- - Scaling (StandardScaler) for other numerical variables.
+  - Log for target variable
+  - Scaling (StandardScaler) for other numerical variables.
 - Handling categorical variables by using dummy variables and encoding.
 
 
