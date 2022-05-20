@@ -78,6 +78,10 @@ The supervise ML algorithms used in this project for regression are Regression T
 
 Figure 5: Machine learning algorithms used in the project.
 
+## Evaluation of Machine Learning Algorithms 
+To evaluate the performance of regression models, the root mean squared error (RMSE) will be used to measure and compare the performance of our models. For clustering models, silhouette score will be used to measure the goodness of a clustering models.
+
+
 
 
 
