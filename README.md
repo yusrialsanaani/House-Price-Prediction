@@ -81,6 +81,15 @@ Figure 5: Machine learning algorithms used in the project.
 ## Evaluation of Machine Learning Algorithms 
 To evaluate the performance of regression models, the root mean squared error (RMSE) will be used to measure and compare the performance of our models. For clustering models, silhouette score will be used to measure the goodness of a clustering models.
 
+![image](https://user-images.githubusercontent.com/89004966/169476427-cbee7c29-5d04-4c28-b40f-55cd7afdc8a2.png)
+
+Figure 6: The RMSE for regression models.
+RT:  Regression Tree Model
+XGB: Extreme Gradient Boosting
+LR: Linear Regression
+
+
+
 
 
 
