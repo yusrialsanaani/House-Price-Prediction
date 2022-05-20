@@ -66,7 +66,19 @@ We have removed the features with no information and correlated features so far.
 - Mutual information scores, it is one of filter-based feature selection methods. We have a number of features that are highly informative and several that don't seem to be informative at all (at least by themselves). Therefore, we will focus our efforts on the top scoring features. Training on uninformative features can lead to overfitting as well, so features with 0.0 MI scores are going to be dropped entirely.
 - Interaction effects, they occur when the effect of an independent variable depends on the value of another independent variable, for example, checking the interaction effect between GrLivArea and BldgType.
 - Unsupervised machine learning:
-The feature selection can leverage unsupervised algorithm to create new features. For this purpose, the clustering approach (i.e., k-mean clustering) and dimensionality-reduction methods (i.e., principal component analysis) can be used to create new features. The clustering approach can be used for feature selection. The formation of clusters reduces the dimensionality and helps in selection of the relevant features for the target class by using cluster labels as features. Principal Component Analysis (PCA) is another unsupervised learning method to create more new features. It is a dimensionality reduction method that is often used to reduce the dimensionality of large data sets, by identifying important relationships in dataset, transforms the existing data based on these relationships, and then quantifies the importance of these relationships, keeping the most important relationships and drop the others. When reducing dimensionality through PCA, the most important information will be kept by selecting the principal components that explain most of the relationships among the features. More information will be presented in results section.
+The feature selection can leverage unsupervised algorithm to create new features. For this purpose, the clustering approach (i.e., k-mean clustering) and dimensionality-reduction methods (i.e., principal component analysis) can be used to create new features. The **clustering** approach can be used for feature selection. The formation of clusters reduces the dimensionality and helps in selection of the relevant features for the target class by using cluster labels as features. **Principal Component Analysis (PCA)** is another unsupervised learning method to create more new features. It is a dimensionality reduction method that is often used to reduce the dimensionality of large data sets, by identifying important relationships in dataset, transforms the existing data based on these relationships, and then quantifies the importance of these relationships, keeping the most important relationships and drop the others. When reducing dimensionality through PCA, the most important information will be kept by selecting the principal components that explain most of the relationships among the features. More information will be presented in results section.
+
+## Machine Learning Algorithms
+
+The Ames Housing dataset was chosen due to its richness and huge features that allow us to utilize many machine learning techniques at each stage of the ML project's life cycle.
+The main goal behind using Ames Housing dataset is to predict the houses prices based on other housing features, therefore the appropriate ML approach is the regression algorithm which is one of supervised ML algorithms. However, unsupervised machine learning approaches can be applied to the dataset as well to create new features during features engineering stage.
+The supervise ML algorithms used in this project for regression are Regression Tree Model, Extreme Gradient Boosting (XGBoost) Model, and Linear Regression. For unsupervised ML, Kmeans clustering, hierarchical clustering, PCA will be used to create new features. Figure 5 summarizes the ML algorithms used in this project.
+
+![image](https://user-images.githubusercontent.com/89004966/169474293-82fa2820-b883-494f-a55e-b687d7ddac51.png)
+
+Figure 5: Machine learning algorithms used in the project.
+
+
 
 
 
